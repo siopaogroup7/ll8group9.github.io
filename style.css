@@ -1,0 +1,384 @@
+.nav{
+  font-family: 'Oswald', sans-serif;
+  position: fixed;
+  margin-left: 59px;
+  margin-top: 20px;
+  font-size: 30px;
+  color:white;
+}
+
+.navo{
+  text-decoration: none;
+  color:white;
+  display: inline;
+  font-size: 30px;
+  font-style: bold;
+}
+
+.bg{
+  position: absolute;
+  animation: animate 16s ease-in-out infinite;
+  width: 100%;
+}
+
+.foxbg {
+  position: absolute;
+  margin-top: 900px;
+  margin-bottom: 10px;
+  height: 645px;
+}
+
+.edsp{
+  position: absolute;
+  margin-top: 1545px;
+  height: 645px;
+}
+
+
+.bg-mount{
+  position: absolute;
+  margin-top: 2190px;
+  height: 645px;
+}
+
+.container{
+  position: relative;
+}
+
+.containerbgg{
+  position: absolute;
+  margin-top: 1%;
+}
+
+.containerbg{
+  position: absolute;;
+
+}
+
+.text-block{
+  position: absolute;
+}
+
+.text-block2{
+  position: absolute;
+  margin-top: 63%;
+}
+
+.text-block3{
+  position: absolute;
+  margin-top: 125%;
+}
+
+.text-block4{
+  position: absolute;
+  margin-top: 2040px;
+  height: 600px;
+}
+
+.text-block44{
+  position: absolute;
+  margin-top: 167%;
+}
+
+.title{
+  font-size: 200px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  line-height: 180px;
+}
+
+.quote{
+  font-size: 100px;
+  line-height: 0px;
+  margin-left: 55px;
+  margin-top: -10px;
+}
+
+.quote2{
+  font-family: 'Arbutus Slab', serif;
+  font-size: 35px;
+  margin-left: 55px;
+  line-height: 30px;
+}
+
+.quote3{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-left: 55px;
+}
+
+.whatis{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 43%;
+  color: white;
+  font-size: 30px;
+  font-size:50px;
+}
+
+.wildlife{
+  font-family: 'Poppins', sans-serif;
+  font-size: 200px;
+  margin-left: 20%;
+  color: white;
+  line-height: 0px;
+}
+
+.shortdef{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: inline-block;
+  text-align: center;
+}
+
+.bg-login {
+  background-color: transparent;
+  border: none;
+  margin-left: 30%;
+  display: inline-block;
+  padding: 30px;
+}
+
+.btnlog {
+  font-family: 'Poppins', sans-serif;]
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-content {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  position: relative;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+}
+
+.login {
+  border-radius: 20px;
+  border: none;
+  background-color: green;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.loginn{
+  margin: 10px;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.edsp-text{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 160px;
+  margin-bottom: 50px;
+  margin-left: 48px;
+  line-height: 0;
+}
+
+.solu-text{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 35%;
+  margin-top: 0;
+  color: white;
+  font-size:50px;
+}
+
+.edsp-def {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  margin-left: 34%;
+  margin-right: 28%;
+  display: inline-block;
+  text-align: center;
+}
+
+.green-box{
+  position: absolute;
+  background-color: green;
+  width: 800px;
+  opacity: 0.2;
+  height: 645px;
+}
+
+.member-title{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  font-size: 100px;
+  line-height: 0;
+}
+
+.members1{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  position:absolute;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  margin-top: -20px;
+  outline: none;
+  cursor: pointer;
+}
+.members2{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  position:absolute;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 40px;
+  outline: none;
+  cursor: pointer;
+}
+.members3{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  position:absolute;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 100px;
+  outline: none;
+  cursor: pointer;
+}
+.members4{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  position:absolute;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 160px;
+  outline: none;
+  cursor: pointer;
+}
+.members5{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  position:absolute;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 220px;
+  outline: none;
+  cursor: pointer;
+}
+.members6{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  position:absolute;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 280px;
+  outline: none;
+  cursor: pointer;
+}
+.members7{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 55px;
+  color: white;
+  position:absolute;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  margin-top: 340px;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+
+* {
+  padding: 0;
+}
+
+a, p{
+  text-decoration: none;
+  color:white;
+  display: inline;
+  font-size: 30px;
+  font-style: bold;
+}
+
+body {
+  background-color:#99e265;
+}
+
+input {
+  width: 50%;
+  display: block;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+@keyframes animate{
+  0%,100%{
+    background-image: url(img/bg.png);
+  }
+  33%{
+    background-image: url(img/bg1.png);
+  }
+  66%{
+    background-image: url(img/bg2.png);
+  }
+}
+
+
+
